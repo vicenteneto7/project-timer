@@ -16,8 +16,45 @@ body {
     height: 100vh;
 }
 
-.text-header {
+.title {
     width: 9rem;
     height: 2.5rem;
     color: blue;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-timer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    height: 10.7rem;
+    background-color: #8C78C4;
+}
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.controles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    background-color: #836ac7;
+}
+
+.tempo {
+    font-size: 5.5rem;
+    text-align: center;
 }
